@@ -10,7 +10,7 @@ const About = () => {
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             lacinia condimentum suscipit. Proin facilisis vulputate urna vitae
-            aliquam. Morbi laoreet purus id pulvinar pretium.
+            aliquam. Morbi laoreet puruss id pulvinar pretium.
           </p>
         </div>
         <div className={styles.img}>
