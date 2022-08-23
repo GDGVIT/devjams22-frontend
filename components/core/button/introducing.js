@@ -1,6 +1,6 @@
 const Introducing = (props) => {
   return (
-    <div className="outer">
+    <div className='outer'>
       <p>Introducing</p>
       <style jsx>{`
         .outer {
@@ -15,9 +15,10 @@ const Introducing = (props) => {
           padding: 0 1rem;
           margin-bottom: 1rem;
         }
-      `}</style>
+      `}
+      </style>
     </div>
-  );
-};
+  )
+}
 
-export default Introducing;
+export default Introducing

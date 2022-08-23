@@ -1,5 +1,5 @@
-import styles from "./Button.module.css";
-import Image from "Next/image";
+import styles from './Button.module.css'
+import Image from 'Next/image'
 
 const Button = () => {
   return (
@@ -7,16 +7,16 @@ const Button = () => {
       <span className={styles.text}>Register Now</span>
       <span className={styles.icon}>
         <Image
-          src={"/arrow.svg"}
+          src='/arrow.svg'
           className={styles.img}
           width={80}
           height={60}
-          viewBox="0 0 24 24"
-          alt="arrow"
+          viewBox='0 0 24 24'
+          alt='arrow'
         />
       </span>
     </button>
-  );
-};
+  )
+}
 
-export default Button;
+export default Button
