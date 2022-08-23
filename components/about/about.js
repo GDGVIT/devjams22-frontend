@@ -6,7 +6,7 @@ const About = () => {
     <div className='lightBg'>
       <div className={styles.outer}>
         <div className={styles.text}>
-          <h2>About DevJams'22</h2>
+          <h2>About DevJams &apos; 22</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam
             lacinia condimentum suscipit. Proin facilisis vulputate urna vitae
