@@ -15,7 +15,9 @@
 
 .text p{
     color: #3A3E41;
+    max-width: 90%;
     line-height: 1.2rem;
+    font-family: 'Work Sans Medium';
 }
 
 .red{
@@ -40,8 +42,8 @@
 }
 
 .img{
-    background-color: #F5F5F7;
-    border-radius: 8px ;
-    height: 60vh;
-    width: 30vw;
+    position: relative;
+    border-radius: 12px ;
+    height: 85vh;
+    width: 35vw;
 }

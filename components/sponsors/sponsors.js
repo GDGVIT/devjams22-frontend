@@ -7,14 +7,16 @@ const Sponsors = () => {
       <h1>Sponsors</h1>
       <div className={styles.outer}>
         <div className={styles.img}>
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
-          <Image src='/googleSp.svg' height='200' width='200' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
+          <Image src='/googleSp.svg' height='150' width='150' alt='sponsor' />
         </div>
       </div>
     </div>

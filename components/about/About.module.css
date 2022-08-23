@@ -19,8 +19,9 @@
 
 .text p{
     text-align: justify;
-    max-width: 70%;
+    max-width: 90%;
     color: var(--dark);
+    line-height: 130%;
 }
 
 .right{
@@ -38,4 +39,8 @@
     border-radius: 8px;
     width: 40vw;
     height: 60vh;
+}
+
+.vit{
+    background-color: #FBBC04;
 }

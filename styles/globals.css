@@ -42,6 +42,27 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: "Work Sans";
+  src: url('../fonts/WorkSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url('../fonts/WorkSans-Bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans Medium";
+  src: url('../fonts/WorkSans-Medium.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 html,
 body {
   padding: 0;
@@ -88,7 +109,10 @@ h1{
   font-weight: normal;
   font-size: 3rem;
   color: var(--white);
-  
+}
+
+p{
+  font-family: 'Work Sans';
 }
 
 @media (prefers-color-scheme: dark) {

@@ -19,7 +19,6 @@ const Footer = () => {
             <h4>+918130488585</h4>
           </div>
         </div>
-
         <div className={styles.content}>
           <h2>Shresth Tiwary</h2>
           <h3>Point of Contact</h3>
@@ -79,16 +78,15 @@ const Footer = () => {
           </div>
         </div>
       </div>
-
-      {/* <div className={styles.image}>
+      <div className={styles.image}>
         <Image
-          src={"/footer.svg"}
-          layout="responsive"
-          height="1040"
-          width="1040"
-          alt="footer"
+          src='/footer.svg'
+          layout='responsive'
+          height='1040'
+          width='1040'
+          alt='footer'
         />
-      </div> */}
+      </div>
     </div>
   )
 }
