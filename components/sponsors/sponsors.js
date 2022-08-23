@@ -1,5 +1,5 @@
 import styles from './Sponsors.module.css'
-import Image from 'Next/image'
+import Image from 'next/image'
 
 const Sponsors = () => {
   return (
