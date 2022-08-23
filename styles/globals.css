@@ -88,6 +88,7 @@ h1{
   font-weight: normal;
   font-size: 3rem;
   color: var(--white);
+  
 }
 
 @media (prefers-color-scheme: dark) {
