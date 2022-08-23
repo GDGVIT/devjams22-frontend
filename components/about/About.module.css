@@ -8,7 +8,7 @@
     background-color: var(--white);
     max-width: 50vw;
     padding: 2rem;
-    height: 60vh;
+    min-height: 60vh;
 }
 
 .text h2{
@@ -38,7 +38,7 @@
     position: relative;
     border-radius: 8px;
     width: 40vw;
-    height: 60vh;
+    min-height: 60vh;
 }
 
 .vit{

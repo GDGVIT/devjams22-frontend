@@ -20,22 +20,6 @@
     font-family: 'Work Sans Medium';
 }
 
-.red{
-    color: #FC5251;
-}
-
-.blue{
-    color: #5A90FC;
-}
-
-.yellow{
-    color: #FBC235;
-}
-
-.green{
-    color: #39AA68;
-}
-
 .button{
     margin-top: 2rem;
     max-width: 50vw;
@@ -44,6 +28,6 @@
 .img{
     position: relative;
     border-radius: 12px ;
-    height: 85vh;
+    min-height: 85vh;
     width: 35vw;
 }
