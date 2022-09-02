@@ -1,0 +1,249 @@
+:root {
+  --white: #fff;
+  --dark: #202124;
+  --textdark: #3a3e41;
+  --red: #ea4335;
+  --yellow: #fbbc04;
+  --blue: #4285f4;
+  --green: #34a853;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-Italic.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  src: url("/fonts/ProductSans-Medium.ttf");
+  font-family: "Product Sans Medium";
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Product Sans";
+  src: url("/fonts/ProductSans-MediumItalic.ttf");
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans";
+  src: url("/fonts/WorkSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Work Sans Medium";
+  src: url("/fonts/WorkSans-Medium.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Product Sans", sans-serif;
+  font-size: 18px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  height: 90vh;
+  width: 100%;
+}
+
+.darkbg {
+  background-color: var(--dark);
+  padding: 4rem;
+}
+
+.lightbg {
+  background-color: #f5f5f7;
+  padding: 4rem;
+}
+
+.lightbg h1 {
+  /* stylelint-disable no-descending-specificity */
+  color: var(--dark);
+}
+
+.about {
+  background-color: #f5f5f7;
+  padding: 6rem;
+  padding-bottom: 15rem;
+}
+
+.speakers {
+  padding-top: 20rem;
+}
+
+.sponsors {
+  background-color: #f0c14b;
+}
+
+.titleicon {
+  text-align: center;
+  line-height: 1rem;
+}
+
+.faq {
+  padding-right: 10rem;
+  padding-left: 10rem;
+}
+
+.register {
+  display: flex;
+  justify-content: space-around;
+  color: var(--textdark);
+  padding-bottom: 1rem;
+}
+
+.register h2 {
+  font-size: 3rem;
+  line-height: 3rem;
+}
+
+.register h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  margin-top: -1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.footer {
+  background-color: #202124;
+  font-weight: 400;
+  color: var(--white);
+  min-height: 100vh;
+  padding-bottom: 0.5rem;
+}
+
+.footer p {
+  text-align: center;
+  font-family: "Product Sans", sans-serif !important;
+}
+
+.footer span {
+  color: red;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Product Sans", sans-serif;
+  font-weight: normal;
+  font-size: 3rem;
+  color: var(--white);
+}
+
+h2 {
+  font-family: "Product Sans", sans-serif;
+  font-size: 2rem;
+  font-style: bold;
+  color: var(--textdark);
+}
+
+p {
+  font-family: "Work Sans", sans-serif;
+}
+
+@media (max-width: 760px) {
+  body {
+    font-size: 14px;
+  }
+
+  .darkbg {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .lightbg {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+
+  .about {
+    padding: 1rem;
+    padding-bottom: 12rem;
+  }
+
+  .speakers {
+    padding-top: 12rem;
+  }
+
+  .titleicon {
+    margin-top: 1rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .register {
+    padding: 1rem;
+    flex-direction: column-reverse;
+  }
+
+  .footer {
+    min-height: min-content;
+  }
+}
+
+@media (max-width: 400px) {
+  .hero {
+    flex-direction: column-reverse;
+    min-height: 100vh;
+  }
+}
+
+@media (max-width: 500px) and (min-width: 401px) {
+  .hero {
+    flex-direction: column-reverse;
+    max-height: 100vh;
+  }
+}
+
+@media (max-width: 1050px) and (min-width: 501px) {
+  .hero {
+    flex-direction: column-reverse;
+    min-height: 100vh;
+    margin-top: 25vh;
+  }
+}
